@@ -101,14 +101,13 @@ const Header = () => {
       <div className="header_logo">
         <img
           className="header_logo_img"
-          src={`${
-            import.meta.env.BASE_URL
-          }profile_images/poteupollio-modified.jpg`}
+          src={`${import.meta.env.BASE_URL}profile_images/Lee Yong Jae
+          .jpg`}
         />
 
         <h1 className="header_logo_title">
           <Link to="#home" onClick={(e) => handleNavClick(e, "#home")}>
-            나는 짱이다1234
+            이 용 재
           </Link>
         </h1>
       </div>

@@ -89,14 +89,14 @@ const Main = () => {
         <div className="home_container" ref={homeRef}>
           <img
             className="home_avatar"
-            src={`${import.meta.env.BASE_URL}profile_images/profile.jpg`}
+            src={`${import.meta.env.BASE_URL}profile_images_Lee-Yong-Jae.jpg`}
             alt="Profile"
           />
           <h2 className="home_title">
             안녕하세요
             <br />
             <strong className="home_title--strong">
-              신입 개발자 전현우입니다.
+              신입 개발자 이용재입니다.
             </strong>
           </h2>
           <p className="home_description">
@@ -140,15 +140,15 @@ const Main = () => {
           <li className="major">
             <FontAwesomeIcon className="major_icon" icon={faServer} />
             <p className="major_title"> Back-end</p>
-            <p>Java, JavaScript, NodeJs</p>
+            <p>Java, JavaScript, Node.js</p>
           </li>
         </ul>
         <ul className="jobs">
           <li className="job">
             <img src={`${import.meta.env.BASE_URL}profile_images/khlogo.jpg`} />
             <div>
-              <p className="job_name">수료 학생 (KH 교육원)</p>
-              <p className="job_period">2025 05 14 ~ 2025 11 04</p>
+              <p className="job_name">수료 학생 (KH 정보교육원)</p>
+              <p className="job_period">2025.05.19 ~ 2025.11.04</p>
             </div>
           </li>
         </ul>
